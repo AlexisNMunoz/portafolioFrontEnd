@@ -9,8 +9,11 @@ function Layout() {
                     <Link to="/" className=" font-black text-3xl text-[#fa0050] hover:drop-shadow-md ">AM</Link>
 
                     <div className=" flex gap-5 items-center">
-                        <a href="public/CV2023.pdf" download="CV2023.pdf" className=" border border-black/80 p-2 rounded-md font-bold text-sm text-black/80 hover:bg-gray-100 transition-colors"
-                        >Descargar CV</a>
+                        <button className=" border border-black/80 p-2 rounded-md font-bold text-sm text-black/80 hover:bg-gray-100 transition-colors">
+                            <a href="/CV2023.pdf" target="_blank" rel="noopener noreferrer" download="CV2023.pdf"
+                            >Descargar CV</a>
+                        </button>
+
 
                         <Link
                             to="/perfil"
