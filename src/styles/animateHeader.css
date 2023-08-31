@@ -1,0 +1,17 @@
+.animatedHeader {
+    animation-name: animatedHeader;
+    animation-duration: .5s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes animatedHeader {
+    0% {
+        opacity: 0;
+        top: -4rem
+    }
+
+    100% {
+        opacity: 1;
+        top: 0;
+    }
+}

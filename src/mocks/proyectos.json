@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nombre": "Doña Moni - Panaderia",
+    "descripcion": "Proyecto para una pequeña panaderia familiar.",
+    "imagen": "src/images/cripto.webp"
+  },
+  {
+    "id": 2,
+    "nombre": "Ecommerce",
+    "descripcion": "Funcionalidad de un ecommerce standar.",
+    "imagen": "src/images/cripto.webp"
+  },
+  {
+    "id": 3,
+    "nombre": "Control de presupuesto",
+    "descripcion": "LLeva un control de tus gastos mensuales o diarios.",
+    "imagen": "../images/presupuesto.jpg",
+    "deploy": "https://control-de-gastos-two.vercel.app/",
+    "github": "https://github.com/AlexisNMunoz/ControlDeGastos"
+  },
+  {
+    "id": 4,
+    "nombre": "Cotizador de Cripto",
+    "descripcion": "Cotiza tus criptos rapido y de manera simple.",
+    "imagen": "src/images/cripto.webp",
+    "deploy": "https://cotizador-cripto-ecru.vercel.app/",
+    "github": "https://github.com/AlexisNMunoz/cotizadorCripto"
+  }
+]
