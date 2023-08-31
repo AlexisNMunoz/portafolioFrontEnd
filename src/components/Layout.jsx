@@ -10,7 +10,7 @@ function Layout() {
 
                     <div className=" flex gap-5 items-center">
                         <button className=" border border-black/80 p-2 rounded-md font-bold text-sm text-black/80 hover:bg-gray-100 transition-colors">
-                            <a href="/CV2023.pdf" target="_blank" rel="noopener noreferrer" download="CV2023.pdf"
+                            <a href="/CV2023.pdf" target="_blank" rel="noopener noreferrer" download="CV-Alexis-Muñoz-FrontEnd-Developer.pdf"
                             >Descargar CV</a>
                         </button>
 
