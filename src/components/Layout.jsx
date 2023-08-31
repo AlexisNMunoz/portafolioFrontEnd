@@ -9,7 +9,7 @@ function Layout() {
                     <Link to="/" className=" font-black text-3xl text-[#fa0050] hover:drop-shadow-md ">AM</Link>
 
                     <div className=" flex gap-5 items-center">
-                        <a href="public/CV2023.pdf" download="CV Alexis Muñoz - Front-End Developer" className=" border border-black/80 p-2 rounded-md font-bold text-sm text-black/80 hover:bg-gray-100 transition-colors"
+                        <a href="public/CV2023.pdf" download="CV-Alexis-Muñoz-Front-End-Developer.pdf" className=" border border-black/80 p-2 rounded-md font-bold text-sm text-black/80 hover:bg-gray-100 transition-colors"
                         >Descargar CV</a>
 
                         <Link
