@@ -63,7 +63,7 @@ function Contacto() {
                     />
                     {errors.name && <ErrorMessage>{errors.name?.message}</ErrorMessage>}
 
-                    <label className=" font-bold text-gray-800/70 uppercase" htmlFor="email">Gmail:</label>
+                    <label className=" font-bold text-gray-800/70 uppercase" htmlFor="email">Email:</label>
                     <input
                         type="email"
                         {...register("email", {
