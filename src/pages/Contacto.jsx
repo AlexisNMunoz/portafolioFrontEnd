@@ -1,31 +1,38 @@
 import { useForm } from "react-hook-form"
 import ErrorMessage from "../components/ErrorMessage"
 import { Toaster, toast } from 'sonner'
+import emailjs from "@emailjs/browser"
+import { useRef } from "react"
 
 
 function Contacto() {
+
+    const form = useRef()
 
     const { register, handleSubmit,
         formState: {
             errors
         }, reset } = useForm()
 
-    const onSubmit = handleSubmit((data) => {
+    const onSubmit = handleSubmit(() => {
 
-        const promise = () => new Promise((resolve) => setTimeout(resolve, 2000));
+        emailjs.sendForm('service_8erq3dl', 'template_ao8r3aj', form.current, 'wiM5eMkksVutvKVgL')
+            .then(result => {
 
-        toast.promise(promise, {
-            loading: 'Enviando...',
-            success: () => {
-                return `Correo enviado correctamente`;
-            },
-            error: 'Error al enviar...',
-        });
+                const promise = () => new Promise((resolve) => setTimeout(resolve, 2000));
+
+                toast.promise(promise, {
+                    loading: 'Enviando...',
+                    success: () => {
+                        return `${result.text}`;
+                    }, error: 'Error al enviar...'
+                });
+
+            }, error => { console.error(error) })
 
         setTimeout(() => {
             reset()
         }, 2000);
-        console.log(data)
 
     })
 
@@ -34,6 +41,7 @@ function Contacto() {
             <h1 className=" pt-24 text-center mb-5 font-bold text-2xl uppercase text-[#fa0050]">¡Gracias por tu visita!</h1>
             <Toaster richColors />
             <form
+                ref={form}
                 onSubmit={onSubmit}
                 className=" flex flex-col gap-2 justify-center items-center container mx-auto"
             >
