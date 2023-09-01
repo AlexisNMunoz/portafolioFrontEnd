@@ -15,7 +15,7 @@
     "id": 3,
     "nombre": "Control de presupuesto",
     "descripcion": "LLeva un control de tus gastos mensuales o diarios.",
-    "imagen": "src/images/presupuesto.jpg",
+    "imagen": "/presupuesto.jpg",
     "deploy": "https://control-de-gastos-two.vercel.app/",
     "github": "https://github.com/AlexisNMunoz/ControlDeGastos"
   },
@@ -23,7 +23,7 @@
     "id": 4,
     "nombre": "Cotizador de Cripto",
     "descripcion": "Cotiza tus criptos rapido y de manera simple.",
-    "imagen": "src/images/cripto.webp",
+    "imagen": "/cripto.webp",
     "deploy": "https://cotizador-cripto-ecru.vercel.app/",
     "github": "https://github.com/AlexisNMunoz/cotizadorCripto"
   }
