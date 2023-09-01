@@ -11,9 +11,8 @@ function Footer() {
                 <div className=" text-white flex flex-col items-center">
                     <h3 className="font-semibold uppercase">contacto</h3>
                     <div className=" flex gap-4">
-                        <a href="#" className=" text-xs hover:text-black/80">Linkedin </a>
-                        <a href="#" className=" text-xs hover:text-black/80">Gmail</a>
-                        <a href="#" className=" text-xs hover:text-black/80">GitHub</a>
+                        <a href="https://www.linkedin.com/in/alexismuñoz" target="_blank" rel="noopener noreferrer" className=" text-xs hover:text-black/80">Linkedin </a>
+                        <a href="https://github.com/AlexisNMunoz" target="_blank" rel="noopener noreferrer" className=" text-xs hover:text-black/80">GitHub</a>
                     </div>
                 </div>
             </div>

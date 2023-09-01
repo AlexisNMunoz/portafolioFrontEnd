@@ -22,7 +22,7 @@ function Perfil() {
             <aside className=" absolute top-52 bg-white shadow-md flex flex-col gap-2">
                 <a
                     className="px-4 py-2 hover:bg-[#0a66c2] hover:text-white cursor-pointer font-semibold hover:scale-110 hover:translate-x-4 hover:shadow-md hover:shadow-[#0a66c2] transition-transform"
-                    href={`https://www.linkedin.com/in/alexismu%C3%B1oz/`} target="_blank" rel="noopener noreferrer">Linkedin</a>
+                    href={`https://www.linkedin.com/in/alexismuñoz`} target="_blank" rel="noopener noreferrer">Linkedin</a>
 
                 <a
                     href="https://github.com/AlexisNMunoz" target="_blank" rel="noopener noreferrer"
