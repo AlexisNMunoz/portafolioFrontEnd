@@ -1,13 +1,18 @@
 /* eslint-disable react/prop-types */
 
-function Proyecto({ nombre, descripcion, deploy, github }) {
+function Proyecto({ imagen, nombre, descripcion, deploy, github }) {
 
     return (
         <article
             className={`shadow-lg shadow-black/10 border border-gray-200 hover:shadow-xl hover:scale-105 transition-transform w-60 h-80 bg-white`}
         >
-            <div className="h-full bg-gray-500">
-                <div className="h-full p-5 flex flex-col justify-between select-none">
+            <div className="h-full relative">
+                <img
+                    className="h-full w-full object-cover absolute z-0 brightness-[.3]"
+                    src={`${imagen}`}
+                    alt={`Imagen del proyecto ${imagen}`}
+                />
+                <div className="z-10 absolute h-full p-5 flex flex-col justify-between select-none">
                     <h2 className="uppercase text-white font-bold text-center">{nombre}</h2>
                     <p className="text-white text-center">{descripcion}</p>
 

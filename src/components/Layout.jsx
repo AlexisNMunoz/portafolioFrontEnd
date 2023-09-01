@@ -14,7 +14,6 @@ function Layout() {
                             >Descargar CV</a>
                         </button>
 
-
                         <Link
                             to="/perfil"
                             className=" text-black/90 text-lg flex gap-4">

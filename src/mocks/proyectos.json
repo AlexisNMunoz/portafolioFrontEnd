@@ -3,19 +3,19 @@
     "id": 1,
     "nombre": "Doña Moni - Panaderia",
     "descripcion": "Proyecto para una pequeña panaderia familiar.",
-    "imagen": "src/images/cripto.webp"
+    "imagen": "..."
   },
   {
     "id": 2,
     "nombre": "Ecommerce",
     "descripcion": "Funcionalidad de un ecommerce standar.",
-    "imagen": "src/images/cripto.webp"
+    "imagen": "..."
   },
   {
     "id": 3,
     "nombre": "Control de presupuesto",
     "descripcion": "LLeva un control de tus gastos mensuales o diarios.",
-    "imagen": "../images/presupuesto.jpg",
+    "imagen": "src/images/presupuesto.jpg",
     "deploy": "https://control-de-gastos-two.vercel.app/",
     "github": "https://github.com/AlexisNMunoz/ControlDeGastos"
   },
