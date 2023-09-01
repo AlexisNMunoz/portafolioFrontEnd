@@ -24,16 +24,13 @@ function Contacto() {
                 toast.promise(promise, {
                     loading: 'Enviando...',
                     success: () => {
-                        return `${result.text}`;
+                        return `${result.text}: Email enviado correctamente`;
                     }, error: 'Error al enviar...'
                 });
 
+                reset()
+
             }, error => { console.error(error) })
-
-        setTimeout(() => {
-            reset()
-        }, 2000);
-
     })
 
     return (
