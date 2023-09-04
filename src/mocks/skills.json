@@ -1,19 +1,19 @@
 [
   {
     "id": 1,
-    "nombre": "JavasCript"
-  },
-  {
-    "id": 2,
     "nombre": "React JS"
   },
   {
-    "id": 3,
+    "id": 2,
     "nombre": "HTML 5"
   },
   {
-    "id": 4,
+    "id": 3,
     "nombre": "CSS 3"
+  },
+  {
+    "id": 4,
+    "nombre": "JavaScript"
   },
   {
     "id": 5,
