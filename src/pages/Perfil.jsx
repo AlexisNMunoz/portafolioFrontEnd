@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import ilustracion from "../images/programando.svg"
+import bgMovil from "../images/bg-pattern-intro-mobile.svg"
 
 function Perfil() {
     return (
@@ -9,7 +10,7 @@ function Perfil() {
                 <div className=" shadow-md flex flex-col items-center md:mt-5 md:rounded-tr-[8rem] md:h-[80vh] h-screen bg-gradient-to-t from-[#fa0050] to-[#fb3d79] rounded-bl-[8rem] relative overflow-hidden">
 
                     <img
-                        src="/public/bg-pattern-intro-mobile.svg" alt="imagen"
+                        src={bgMovil} alt="imagen"
                         className=" absolute scale-[4.3] top-[15rem] left-20 opacity-50 z-[1]"
                     />
 
