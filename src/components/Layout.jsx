@@ -4,7 +4,7 @@ function Layout() {
     return (
         <>
             <header
-                className=" bg-white shadow-lg px-10 py-3 fixed z-20 right-0 left-0 animatedHeader ">
+                className=" bg-white shadow-lg px-10 py-3 animatedHeader ">
                 <div className="flex justify-between items-center container w-[90%] mx-auto">
                     <Link to="/" className=" font-black text-3xl text-[#fa0050] hover:drop-shadow-md ">AM</Link>
 

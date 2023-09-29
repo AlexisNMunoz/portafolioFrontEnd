@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom"
 import Skills from "../components/Skills"
 import tecnologias from "../mocks/skills.json"
-import Proyectos from "../components/Proyectos"
-import Footer from "../components/Footer"
 
 function Hero() {
     return (
@@ -26,8 +24,6 @@ function Hero() {
                     }
                 </div>
             </main>
-            <Proyectos />
-            <Footer />
         </>
     )
 }
